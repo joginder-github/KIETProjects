@@ -1,0 +1,6 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^evote\.arjunsingh\.tk$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.evote\.arjunsingh\.tk$
+RewriteRule ^/?$ "http\:\/\/arjunsingh\.tk\/evote" [R=301,L]
+
